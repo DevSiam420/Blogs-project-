@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "coverImg": "https://picsum.photos/600/350?random=21",
+    "title": "Getting Started with React",
+    "authorName": "Siam Ahmed",
+    "postedDate": "2025-01-08",
+    "hashtags": ["#react", "#javascript", "#frontend"]
+  },
+  {
+    "id": 2,
+    "coverImg": "https://picsum.photos/600/350?random=22",
+    "title": "Understanding JavaScript Basics",
+    "authorName": "Rahim Uddin",
+    "postedDate": "2025-01-10",
+    "hashtags": ["#javascript", "#webdev", "#coding"]
+  },
+  {
+    "id": 3,
+    "coverImg": "https://picsum.photos/600/350?random=23",
+    "title": "CSS Tricks for Modern UI",
+    "authorName": "Karim Hasan",
+    "postedDate": "2025-01-12",
+    "hashtags": ["#css", "#uiux", "#design"]
+  },
+  {
+    "id": 4,
+    "coverImg": "https://picsum.photos/600/350?random=24",
+    "title": "Tailwind CSS for Beginners",
+    "authorName": "Siam Ahmed",
+    "postedDate": "2025-01-15",
+    "hashtags": ["#tailwind", "#css", "#frontend"]
+  }
+]
