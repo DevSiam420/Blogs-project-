@@ -13,7 +13,7 @@ const Blog = ({ blog, handleBookMark, HandleMarkButton }) => {
       <p>{blog.hashtags}</p>
       <div className="flex justify-between mt-2">
         <button
-          onClick={() => HandleMarkButton(blog.readingTime)}
+          onClick={() => HandleMarkButton(blog.readingTime , blog.id)}
           className="mt-1 btn btn-sm bg-blue-400 text-black font-bold"
         >
           {" "}

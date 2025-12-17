@@ -9,9 +9,17 @@ function App() {
   };
   // --- Handle Mark as read Button ----
   const [CountReadingTime, setCountReadingTime] = useState(0);
-  const HandleMarkButton = (time) => {
+  const HandleMarkButton = (time, Id) => {
+    DeleteBookMark(Id);
     const newTime = CountReadingTime + time;
     setCountReadingTime(newTime);
+  };
+
+  // -- Delete bookmark --
+
+  const DeleteBookMark = (id) => {
+    const remainingBookMark = Bookmarked.filter((mark) => mark.id !== id);
+    setBookmarked(remainingBookMark);
   };
 
   return (
