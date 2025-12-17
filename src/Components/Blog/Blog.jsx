@@ -2,7 +2,7 @@ import React from "react";
 // Bookmark icon -
 import { FaRegBookmark } from "react-icons/fa";
 
-const Blog = ({ blog, handleBookMark }) => {
+const Blog = ({ blog, handleBookMark, HandleMarkButton }) => {
   return (
     <div className="text-left p-4 border m-5 rounded-2xl">
       <h2 className="text-2xl text-blue-600">Id : {blog.id}</h2>
@@ -12,7 +12,10 @@ const Blog = ({ blog, handleBookMark }) => {
       <p className="text-gray-400 mt-1">{blog.postedDate}</p>
       <p>{blog.hashtags}</p>
       <div className="flex justify-between mt-2">
-        <button className="mt-1 btn btn-sm bg-blue-400 text-black font-bold">
+        <button
+          onClick={() => HandleMarkButton(blog.readingTime)}
+          className="mt-1 btn btn-sm bg-blue-400 text-black font-bold"
+        >
           {" "}
           Mark as read
         </button>

@@ -5,7 +5,8 @@
     "title": "Getting Started with React",
     "authorName": "Siam Ahmed",
     "postedDate": "2025-01-08",
-    "hashtags": ["#react", "#javascript", "#frontend"]
+    "hashtags": ["#react", "#javascript", "#frontend"],
+    "readingTime": 5
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Understanding JavaScript Basics",
     "authorName": "Rahim Uddin",
     "postedDate": "2025-01-10",
-    "hashtags": ["#javascript", "#webdev", "#coding"]
+    "hashtags": ["#javascript", "#webdev", "#coding"],
+    "readingTime": 7
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "title": "CSS Tricks for Modern UI",
     "authorName": "Karim Hasan",
     "postedDate": "2025-01-12",
-    "hashtags": ["#css", "#uiux", "#design"]
+    "hashtags": ["#css", "#uiux", "#design"],
+    "readingTime": 6
   },
   {
     "id": 4,
@@ -29,6 +32,7 @@
     "title": "Tailwind CSS for Beginners",
     "authorName": "Siam Ahmed",
     "postedDate": "2025-01-15",
-    "hashtags": ["#tailwind", "#css", "#frontend"]
+    "hashtags": ["#tailwind", "#css", "#frontend"],
+    "readingTime": 8
   }
 ]
